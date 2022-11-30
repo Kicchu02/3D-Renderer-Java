@@ -1,11 +1,15 @@
 package renderer;
 
+import java.awt.Canvas;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.image.BufferStrategy;
+
+import javax.swing.JFrame;
+
 import renderer.entity.EntityManager;
 import renderer.input.UserInput;
-
-import javax.swing.*;
-import java.awt.*;
-import java.awt.image.BufferStrategy;
 
 public class Display extends Canvas implements Runnable {
     

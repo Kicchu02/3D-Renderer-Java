@@ -1,5 +1,10 @@
 package renderer.entity;
 
+import java.awt.Color;
+import java.awt.Graphics;
+import java.util.ArrayList;
+import java.util.List;
+
 import renderer.entity.builder.BasicEntityBuilder;
 import renderer.input.ClickType;
 import renderer.input.Keyboard;
@@ -8,10 +13,6 @@ import renderer.input.UserInput;
 import renderer.point.MyVector;
 import renderer.point.PointConverter;
 import renderer.world.Camera;
-
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class EntityManager {
     

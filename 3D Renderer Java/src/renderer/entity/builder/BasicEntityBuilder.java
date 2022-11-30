@@ -1,14 +1,14 @@
 package renderer.entity.builder;
 
+import java.awt.Color;
+import java.util.ArrayList;
+import java.util.List;
+
 import renderer.entity.Entity;
 import renderer.entity.IEntity;
 import renderer.point.MyPoint;
 import renderer.shapes.MyPolygon;
 import renderer.shapes.Polyhedron;
-
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class BasicEntityBuilder {
     

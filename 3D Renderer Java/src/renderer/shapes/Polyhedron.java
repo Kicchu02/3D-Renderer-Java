@@ -1,9 +1,9 @@
 package renderer.shapes;
 
-import renderer.point.MyVector;
-
-import java.awt.*;
+import java.awt.Color;
 import java.util.Arrays;
+
+import renderer.point.MyVector;
 
 public class Polyhedron {
     private final MyPolygon[] polygons;

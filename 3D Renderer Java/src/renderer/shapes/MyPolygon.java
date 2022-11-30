@@ -1,14 +1,17 @@
 package renderer.shapes;
 
-import renderer.point.MyPoint;
-import renderer.point.MyVector;
-import renderer.point.PointConverter;
-
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Point;
+import java.awt.Polygon;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+
+import renderer.point.MyPoint;
+import renderer.point.MyVector;
+import renderer.point.PointConverter;
 
 public class MyPolygon {
     

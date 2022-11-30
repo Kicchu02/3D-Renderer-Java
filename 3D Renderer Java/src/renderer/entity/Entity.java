@@ -1,14 +1,14 @@
 package renderer.entity;
 
-import renderer.point.MyVector;
-import renderer.shapes.MyPolygon;
-import renderer.shapes.Polyhedron;
-
-import java.awt.*;
+import java.awt.Graphics;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+
+import renderer.point.MyVector;
+import renderer.shapes.MyPolygon;
+import renderer.shapes.Polyhedron;
 
 public class Entity implements IEntity {
     
